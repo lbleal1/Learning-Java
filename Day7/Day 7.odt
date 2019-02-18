@@ -1,0 +1,78 @@
+public class
+-> must match the name of your file
+example:
+public class RedFruit {
+
+}
+
+saved on: RedFruitjava
+
+you can only have one public class in a file
+however, (but please don't) you can have as many
+as non-public classes as you like
+
+java keywords are always lowercase
+
+Class
+-> template/blueprint for creating objects
+
+Classes can contain:
+1. Data
+	-> represents the state of our objects
+		*state
+		--> how you are at the moment
+
+2. subroutine (methods)
+
+
+Instance Variables
+-> data/state in a class
+
+How to use it:
+Example:
+	inside the main method
+
+	Person person1 = new Person();
+	//Person  - the class and technically the "data type"
+	//person1 - variable
+	//new Person() - creating a new object of that class
+					  - allocating memory
+
+	person1.name = "Joe Bloggs";
+	person1.age = 37;
+
+	
+	Person person2 = new Person();
+	person2.name = "Sarah Smith";
+	person2.age = 20;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

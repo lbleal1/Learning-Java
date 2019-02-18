@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class switch{
+	public static void main(String[] args){
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Please enter a number: ");
+		String text = input.nextLine();
+
+		switch(text){
+			case 1: System.out.println("You got it!");
+		}
+	}
+}
+
+
+
+
+/*
+	public class{} and not public class(){}
+	because class is not a function!
+	class is a way to communicate with other code, it doesn't take
+	any parameters and has no input and output
+
+	unlike public static void main() which is a function
+*/
